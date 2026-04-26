@@ -1,0 +1,173 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ref-ld-chr /root/eur_w_ld_chr/ \
+--out /root/BMI-620-MPB/results/mpb_genetic_correlations \
+--rg /root/BMI-620-MPB/results/Baldness.sumstats.gz,~/BMI-620-MPB/results/Insomnia.sumstats.gz,~/BMI-620-MPB/results/Cannabis.sumstats.gz,~/BMI-620-MPB/results/Income.sumstats.gz,~/BMI-620-MPB/results/Chronotype.sumstats.gz,~/BMI-620-MPB/results/ADHD.sumstats.gz \
+--w-ld-chr /root/eur_w_ld_chr/ 
+
+Beginning analysis at Sun Apr 26 16:37:33 2026
+Reading summary statistics from /root/BMI-620-MPB/results/Baldness.sumstats.gz ...
+Read summary statistics for 1167622 SNPs.
+Reading reference panel LD Score from /root/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /root/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1290028 SNPs.
+After merging with reference panel LD, 1136724 SNPs remain.
+After merging with regression SNP LD, 1136724 SNPs remain.
+Computing rg for phenotype 2/6
+Reading summary statistics from /root/BMI-620-MPB/results/Insomnia.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1136724 SNPs remain.
+1120687 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.3509 (0.0334)
+Lambda GC: 1.4926
+Mean Chi^2: 2.599
+Intercept: 1.206 (0.0462)
+Ratio: 0.1289 (0.0289)
+
+Heritability of phenotype 2/6
+-----------------------------
+Total Observed scale h2: 0.046 (0.0021)
+Lambda GC: 1.3101
+Mean Chi^2: 1.3669
+Intercept: 1.0141 (0.0088)
+Ratio: 0.0384 (0.0241)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0015 (0.0026)
+Mean z1*z2: -0.0003
+Intercept: 0.0125 (0.0069)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0119 (0.0209)
+Z-score: -0.5708
+P: 0.5681
+
+Computing rg for phenotype 3/6
+Reading summary statistics from /root/BMI-620-MPB/results/Cannabis.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1136724 SNPs remain.
+1075547 SNPs with valid alleles.
+
+Heritability of phenotype 3/6
+-----------------------------
+Total Observed scale h2: 0.0195 (0.0016)
+Lambda GC: 1.1301
+Mean Chi^2: 1.1406
+Intercept: 1.0001 (0.0073)
+Ratio: 0.001 (0.0518)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0005 (0.0023)
+Mean z1*z2: -0.0125
+Intercept: -0.0064 (0.0071)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0058 (0.0277)
+Z-score: -0.2106
+P: 0.8332
+
+Computing rg for phenotype 4/6
+Reading summary statistics from /root/BMI-620-MPB/results/Income.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1136724 SNPs remain.
+1136703 SNPs with valid alleles.
+
+Heritability of phenotype 4/6
+-----------------------------
+Total Observed scale h2: 0.0748 (0.0034)
+Lambda GC: 1.365
+Mean Chi^2: 1.4532
+Intercept: 1.0315 (0.0093)
+Ratio: 0.0696 (0.0204)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0008 (0.0038)
+Mean z1*z2: -0.0131
+Intercept: -0.0164 (0.0076)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0047 (0.0234)
+Z-score: -0.2009
+P: 0.8408
+
+Computing rg for phenotype 5/6
+Reading summary statistics from /root/BMI-620-MPB/results/Chronotype.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1136724 SNPs remain.
+1135221 SNPs with valid alleles.
+
+Heritability of phenotype 5/6
+-----------------------------
+Total Observed scale h2: 0.111 (0.0036)
+Lambda GC: 1.7648
+Mean Chi^2: 2.0342
+Intercept: 1.043 (0.0132)
+Ratio: 0.0416 (0.0128)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0012 (0.0032)
+Mean z1*z2: 0.0082
+Intercept: -0.0002 (0.0077)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0063 (0.0164)
+Z-score: 0.3819
+P: 0.7025
+
+Computing rg for phenotype 6/6
+Reading summary statistics from /root/BMI-620-MPB/results/ADHD.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1136724 SNPs remain.
+1095699 SNPs with valid alleles.
+
+Heritability of phenotype 6/6
+-----------------------------
+Total Observed scale h2: 0.095 (0.0044)
+Lambda GC: 1.3581
+Mean Chi^2: 1.4549
+Intercept: 1.0266 (0.0095)
+Ratio: 0.0584 (0.0209)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.009 (0.0046)
+Mean z1*z2: -0.0359
+Intercept: 0.0045 (0.0088)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0499 (0.0252)
+Z-score: -1.9815
+P: 0.0475
+
+
+Summary of Genetic Correlation Results
+                                             p1                                                p2      rg      se       z       p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+ /root/BMI-620-MPB/results/Baldness.sumstats.gz    /root/BMI-620-MPB/results/Insomnia.sumstats.gz -0.0119  0.0209 -0.5708  0.5681  0.0460     0.0021  1.0141     0.0088    0.0125       0.0069
+ /root/BMI-620-MPB/results/Baldness.sumstats.gz    /root/BMI-620-MPB/results/Cannabis.sumstats.gz -0.0058  0.0277 -0.2106  0.8332  0.0195     0.0016  1.0001     0.0073   -0.0064       0.0071
+ /root/BMI-620-MPB/results/Baldness.sumstats.gz      /root/BMI-620-MPB/results/Income.sumstats.gz -0.0047  0.0234 -0.2009  0.8408  0.0748     0.0034  1.0315     0.0093   -0.0164       0.0076
+ /root/BMI-620-MPB/results/Baldness.sumstats.gz  /root/BMI-620-MPB/results/Chronotype.sumstats.gz  0.0063  0.0164  0.3819  0.7025  0.1110     0.0036  1.0430     0.0132   -0.0002       0.0077
+ /root/BMI-620-MPB/results/Baldness.sumstats.gz        /root/BMI-620-MPB/results/ADHD.sumstats.gz -0.0499  0.0252 -1.9815  0.0475  0.0950     0.0044  1.0266     0.0095    0.0045       0.0088
+
+Analysis finished at Sun Apr 26 16:38:08 2026
+Total time elapsed: 34.66s

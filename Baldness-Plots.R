@@ -1,8 +1,6 @@
 # ============================================================
 # baldness_plots.R
-# Manhattan + QQ plot for the MPB GWAS (Baldness.tab).
-# Run this in RStudio — open this file and click "Source"
-# (or press Cmd+Shift+Enter on Mac).
+# Manhattan + QQ plot for the MPB GWAS (Baldness.tab)
 # ============================================================
 
 if (!require("qqman"))      install.packages("qqman")

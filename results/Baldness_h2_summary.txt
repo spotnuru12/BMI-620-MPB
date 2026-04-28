@@ -1,0 +1,9 @@
+=========================================
+LDSC Heritability Results: Baldness (MPB)
+=========================================
+
+Total Observed scale h2: 0.3431 (0.0274)
+Lambda GC: 1.4926
+Mean Chi^2: 2.5854
+Intercept: 1.2232 (0.0205)
+Ratio: 0.1408 (0.0129)

@@ -1,0 +1,173 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ref-ld-chr /tmp/ld_chr/ \
+--out /home/snayar2@ad.wisc.edu/bmi620_final/results/Baldness_rg \
+--rg /home/snayar2@ad.wisc.edu/bmi620_final/results/Baldness.sumstats.gz,/home/snayar2@ad.wisc.edu/bmi620_final/results/Chronotype.sumstats.gz,/home/snayar2@ad.wisc.edu/bmi620_final/results/ADHD.sumstats.gz,/home/snayar2@ad.wisc.edu/bmi620_final/results/Cannabis.sumstats.gz,/home/snayar2@ad.wisc.edu/bmi620_final/results/Insomnia.sumstats.gz,/home/snayar2@ad.wisc.edu/bmi620_final/results/Income.sumstats.gz \
+--w-ld-chr /tmp/ld_chr/ 
+
+Beginning analysis at Sun Apr 26 16:38:44 2026
+Reading summary statistics from /home/snayar2@ad.wisc.edu/bmi620_final/results/Baldness.sumstats.gz ...
+Read summary statistics for 1167622 SNPs.
+Reading reference panel LD Score from /tmp/ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1293150 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /tmp/ld_chr/[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1293150 SNPs.
+After merging with reference panel LD, 1139569 SNPs remain.
+After merging with regression SNP LD, 1139569 SNPs remain.
+Computing rg for phenotype 2/6
+Reading summary statistics from /home/snayar2@ad.wisc.edu/bmi620_final/results/Chronotype.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1139569 SNPs remain.
+1138063 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.3547 (0.0328)
+Lambda GC: 1.4926
+Mean Chi^2: 2.5872
+Intercept: 1.1943 (0.0437)
+Ratio: 0.1224 (0.0275)
+
+Heritability of phenotype 2/6
+-----------------------------
+Total Observed scale h2: 0.1111 (0.0038)
+Lambda GC: 1.7648
+Mean Chi^2: 2.0341
+Intercept: 1.0436 (0.014)
+Ratio: 0.0421 (0.0135)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0013 (0.0033)
+Mean z1*z2: 0.0087
+Intercept: -6.2577e-05 (0.0077)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0066 (0.0169)
+Z-score: 0.3913
+P: 0.6956
+
+Computing rg for phenotype 3/6
+Reading summary statistics from /home/snayar2@ad.wisc.edu/bmi620_final/results/ADHD.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1139569 SNPs remain.
+1098411 SNPs with valid alleles.
+
+Heritability of phenotype 3/6
+-----------------------------
+Total Observed scale h2: 0.0952 (0.0044)
+Lambda GC: 1.3615
+Mean Chi^2: 1.4558
+Intercept: 1.027 (0.0094)
+Ratio: 0.0592 (0.0206)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0089 (0.0044)
+Mean z1*z2: -0.035
+Intercept: 0.0043 (0.0084)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0493 (0.024)
+Z-score: -2.0528
+P: 0.0401
+
+Computing rg for phenotype 4/6
+Reading summary statistics from /home/snayar2@ad.wisc.edu/bmi620_final/results/Cannabis.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1139569 SNPs remain.
+1078168 SNPs with valid alleles.
+
+Heritability of phenotype 4/6
+-----------------------------
+Total Observed scale h2: 0.0197 (0.0017)
+Lambda GC: 1.1301
+Mean Chi^2: 1.1428
+Intercept: 0.9999 (0.0072)
+Ratio < 0 (usually indicates GC correction).
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0002 (0.0023)
+Mean z1*z2: -0.0113
+Intercept: -0.0071 (0.0071)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0023 (0.0284)
+Z-score: -0.0822
+P: 0.9345
+
+Computing rg for phenotype 5/6
+Reading summary statistics from /home/snayar2@ad.wisc.edu/bmi620_final/results/Insomnia.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1139569 SNPs remain.
+1123482 SNPs with valid alleles.
+
+Heritability of phenotype 5/6
+-----------------------------
+Total Observed scale h2: 0.0461 (0.002)
+Lambda GC: 1.3101
+Mean Chi^2: 1.3679
+Intercept: 1.0142 (0.0086)
+Ratio: 0.0386 (0.0234)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0012 (0.0028)
+Mean z1*z2: 0.0013
+Intercept: 0.012 (0.0072)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0095 (0.0218)
+Z-score: -0.4367
+P: 0.6623
+
+Computing rg for phenotype 6/6
+Reading summary statistics from /home/snayar2@ad.wisc.edu/bmi620_final/results/Income.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1139569 SNPs remain.
+1139547 SNPs with valid alleles.
+
+Heritability of phenotype 6/6
+-----------------------------
+Total Observed scale h2: 0.0754 (0.0033)
+Lambda GC: 1.365
+Mean Chi^2: 1.457
+Intercept: 1.032 (0.0092)
+Ratio: 0.07 (0.0202)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0008 (0.0038)
+Mean z1*z2: -0.013
+Intercept: -0.0162 (0.0073)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.0049 (0.0235)
+Z-score: -0.2095
+P: 0.834
+
+
+Summary of Genetic Correlation Results
+p1                                                                     p2      rg      se       z       p  h2_obs  h2_obs_se  h2_int  h2_int_se    gcov_int  gcov_int_se
+/home/snayar2@ad.wisc.edu/bmi620_final/results/Baldness.sumstats.gz  /home/snayar2@ad.wisc.edu/bmi620_final/results/Chronotype.sumstats.gz  0.0066  0.0169  0.3913  0.6956  0.1111     0.0038  1.0436     0.0140 -6.2577e-05       0.0077
+/home/snayar2@ad.wisc.edu/bmi620_final/results/Baldness.sumstats.gz        /home/snayar2@ad.wisc.edu/bmi620_final/results/ADHD.sumstats.gz -0.0493  0.0240 -2.0528  0.0401  0.0952     0.0044  1.0270     0.0094  4.2664e-03       0.0084
+/home/snayar2@ad.wisc.edu/bmi620_final/results/Baldness.sumstats.gz    /home/snayar2@ad.wisc.edu/bmi620_final/results/Cannabis.sumstats.gz -0.0023  0.0284 -0.0822  0.9345  0.0197     0.0017  0.9999     0.0072 -7.1133e-03       0.0071
+/home/snayar2@ad.wisc.edu/bmi620_final/results/Baldness.sumstats.gz    /home/snayar2@ad.wisc.edu/bmi620_final/results/Insomnia.sumstats.gz -0.0095  0.0218 -0.4367  0.6623  0.0461     0.0020  1.0142     0.0086  1.2014e-02       0.0072
+/home/snayar2@ad.wisc.edu/bmi620_final/results/Baldness.sumstats.gz      /home/snayar2@ad.wisc.edu/bmi620_final/results/Income.sumstats.gz -0.0049  0.0235 -0.2095  0.8340  0.0754     0.0033  1.0320     0.0092 -1.6173e-02       0.0073
+
+Analysis finished at Sun Apr 26 16:39:09 2026
+Total time elapsed: 25.64s
